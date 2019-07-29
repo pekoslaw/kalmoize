@@ -25,7 +25,7 @@ def gen_version():
     :return: version number, random int
     :rtype: int
     """
-    return random.randint(0, sys.maxint)
+    return random.randint(0, sys.maxsize)
 
 def localcache_put(key, value):
     """Wklada dane do localcache.
