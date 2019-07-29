@@ -1,9 +1,9 @@
 import logging
 from functools import wraps
-from gronoize.constants import DEFAULT_TIMEOUT
-from gronoize.constants import MEMCACHE_NONE
-from gronoize.utils import get
-from gronoize.utils import put
+from constants import DEFAULT_TIMEOUT
+from constants import MEMCACHE_NONE
+from kalmoize.utils import get
+from kalmoize.utils import put
 
 
 log = logging.getLogger(__name__)

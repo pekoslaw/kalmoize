@@ -6,7 +6,7 @@ from copy import deepcopy
 from tornado.options import options
 import memcache
 
-from kalmoize.constants import MEMCACHE_NONE
+from constants import MEMCACHE_NONE
 
 log = logging.getLogger(__name__)
 
